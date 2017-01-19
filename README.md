@@ -6,7 +6,7 @@
 ###Small and Flexible edit in place components for meteor.
 
 ```sh
-meteor add robincwillis:edit-in-place
+meteor add compstak:edit-in-place
 ```
 
 ##What it do
