@@ -1,6 +1,6 @@
 Package.describe({
   name: 'compstak:edit-in-place',
-  version: '0.0.9',
+  version: '0.0.10',
   // Brief, one-line summary of the package.
   summary: 'A simple edit in place package for Meteor.',
   // URL to the Git repository containing the source code for this package.
@@ -10,17 +10,16 @@ Package.describe({
   documentation: 'README.md'
 });
 
-Package.onUse(function(api) {
-  api.versionsFrom('1.0.3.2');
+Package.onUse(function (api) {
+  api.versionsFrom('1.4.2.3');
 
   api.use([
     'underscore',
     'templating',
     'fourseven:scss@3.13.0',
     'jquery',
-    ], 'client');
-
-  api.mainModule('lib/client/eip-client.js', 'client');
+    'templating@1.3.0'
+  ], 'client');
 
   api.addFiles([
     'lib/client/eip-list.html',
@@ -33,6 +32,7 @@ Package.onUse(function(api) {
     'lib/client/icons/_pencil.html',
     'lib/client/icons/_check.html',
     'lib/client/icons/_delete.html',
+    'lib/client/eip-client.js',
   ], 'client');
 
 });
