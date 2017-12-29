@@ -16,7 +16,7 @@ Package.onUse(function (api) {
   api.use([
     'underscore',
     'templating',
-    'fourseven:scss',
+    'fourseven:scss@4.5.4',
     'jquery',
     'templating@1.3.0'
   ], 'client');
