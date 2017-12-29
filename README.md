@@ -21,7 +21,7 @@ Edit in place is a Meteor package that provides UI elements to easily edit value
 The easiest way to get started is to clone this repository and run the example code
 
 ```sh
-$ git clone git@github.com:robincwillis/meteor-edit-in-place.git
+$ git clone git@github.com:compstak/meteor-edit-in-place.git
 $ cd meteor/edit-in-place/example
 $ meteor
 ```

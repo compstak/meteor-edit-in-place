@@ -1,6 +1,6 @@
 Package.describe({
   name: 'compstak:edit-in-place',
-  version: '0.0.10',
+  version: '0.1.0',
   // Brief, one-line summary of the package.
   summary: 'A simple edit in place package for Meteor.',
   // URL to the Git repository containing the source code for this package.
@@ -16,7 +16,7 @@ Package.onUse(function (api) {
   api.use([
     'underscore',
     'templating',
-    'fourseven:scss@3.13.0',
+    'fourseven:scss',
     'jquery',
     'templating@1.3.0'
   ], 'client');
